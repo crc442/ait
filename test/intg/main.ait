@@ -1,0 +1,13 @@
+{{ count }}
+<button onClick={increment}>Increment</button>
+
+<style>
+  button {
+    border-radius: 2px;
+  }
+</style>
+
+<script>
+  count = 0;
+  increment = () => count + 1;  
+</script>

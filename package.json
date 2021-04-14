@@ -1,0 +1,42 @@
+{
+  "name": "ait",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "bin": {
+    "ait": "./cli.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crc442/ait.git"
+  },
+  "author": "crc442@nyu.edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crc442/ait/issues"
+  },
+  "homepage": "https://github.com/crc442/ait#readme",
+  "devDependencies": {
+    "acorn": "^7.1.1",
+    "code-red": "^0.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "estree-walker": "^1.0.0",
+    "js-beautify": "^1.10.3",
+    "minimist": "1.2.3",
+    "parse5": "^5.1.1"
+  }
+}

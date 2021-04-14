@@ -1,0 +1,12 @@
+<script>
+  state: {
+    name: ''
+  }
+
+  const handleClick = (e) => {
+    e.preventDeafault()
+    console.log(`Hello ${name}`)
+  }
+</script>
+
+<h1 on:click=handleClick>Hello {name}!</h1>
